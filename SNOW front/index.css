@@ -1,0 +1,265 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-size: 15px;
+  font-family: "poppins";
+  /* background-color:#eff0f3; */
+  background-color: #f2f1f7;
+}
+/*Topnav*/
+.topnav {
+  background-color: #e8700e;
+}
+.topnav a,
+.icon {
+  color: #eff0f3;
+  stroke: #0d0d0d;
+}
+.topnav a:hover,
+.icon :hover {
+  color: #ff8e3c;
+}
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /*padding: 0px 50px;*/
+  height: 30px;
+}
+@media (max-width: 768px) {
+  .box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   /* padding: 0px 30px;*/
+    height: 30px;
+  }
+}
+@media (max-width: 360px) {
+  body {
+    font-size: 12px;
+  }
+}
+.box ul {
+  list-style: none;
+  display: flex;
+  padding-top: 6px;
+  margin-top: 10px;
+}
+.box li {
+  margin: 0px 5px;
+}
+/*TopNav Ends*/
+
+/*Navbar*/
+.navbars{
+background-color: #ffffff;
+}
+.nav-link{
+  color: black;
+  font-size: 18px;
+}
+.nav-link:hover{
+  color: #de7621;
+}
+.sticky{
+  position: sticky;
+  top: 0;
+  z-index: 9;
+background-color: #ff7a0ead;
+}
+.nav-links{
+  color: rgb(249, 249, 249);
+}
+/*Navbar Ends*/
+/*Section*/
+.section-dist{
+  padding-top: 30px;
+}
+.oursection{
+  background-color: white;
+}
+.heading{
+  text-align: center;
+  padding: 18px;
+  /* color:#0d0d0d; */
+  color: #2b3579;
+}
+.headings{
+  padding: 9px;
+  color: #2b3579;
+}
+.section-text{
+  color: #2a2a2a;
+}
+.car{
+  transition: 1s;
+  transform: scale(0.9);
+  cursor: pointer;
+  background-color: white;
+  border: 2px solid #ff7a0ead;
+  padding: 35px;
+}
+.car:hover{
+  padding: 15px;
+  transform: scale(1);
+  /*box-shadow: 20px 24px 45px rgb(181, 181, 181);*/
+  box-shadow: 10px 10px 50px rgb(225, 225, 225);
+  font-size: 20px;
+ background-color:#c56619;
+}
+.headings:hover{
+  font-size: 30px;
+}
+.car .section-text{
+  color: rgb(0, 0, 0);
+}
+.car .section-text:hover{
+  color: white;
+}
+
+/*Orange Section*/
+.orange-section{
+  background-color:#ff8e3c;
+}
+.orangesection{
+  background-color: #ff8e3c;
+  padding-bottom: 30px;
+}
+.heading-white{
+  color: white;
+  text-align: center;
+  padding: 9px;
+}
+/*card*/
+.card-section .card{
+  border: 1px solid #e8700e;
+}
+.card-section .card:hover{
+  background-color: #eff0f3;
+  border: 1px solid white;
+}
+@media (max-width:700px) {
+  .card-section{
+    padding-bottom: 15px;
+  }
+}
+
+/*Video*/
+.video{
+  width:100%; height:450px;
+}
+@media (max-width:992px) {
+  .video{
+    width: 100%;
+  }
+}
+@media (max-width:768px) {
+  .video{
+    width: 100%;
+  }
+}
+@media (max-width:576px) {
+  .video{
+    width: 100%;
+  }
+}
+/*testimonial*/
+@import url(https://fonts.googleapis.com/css?family=Roboto:300,400);
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css);
+.snip1533 {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+  color: #9e9e9e;
+  display: inline-block;
+  font-family: 'Roboto', Arial, sans-serif;
+  font-size: 16px;
+  /* margin: 35px 10px 10px; */
+  width: 100%;
+  position: relative;
+  text-align: center;
+  width: 100%;
+  background-color: #ffffff;
+  border-radius: 5px;
+  border-top: 5px solid #d2652d;
+}
+
+.snip1533 *,
+.snip1533 *:before {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.1s ease-out;
+  transition: all 0.1s ease-out;
+}
+
+.snip1533 figcaption {
+  padding: 13% 10% 12%;
+}
+
+.snip1533 figcaption:before {
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  background-color: #fff;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+  color: #d2652d;
+  content: "\f10e";
+  font-family: 'FontAwesome';
+  font-size: 32px;
+  font-style: normal;
+  left: 50%;
+  line-height: 60px;
+  position: absolute;
+  top: -30px;
+  width: 60px;
+}
+
+.snip1533 h3 {
+  color: #3c3c3c;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 24px;
+  margin: 10px 0 5px;
+}
+
+.snip1533 h4 {
+  font-weight: 400;
+  margin: 0;
+  opacity: 0.5;
+}
+
+.snip1533 blockquote {
+  font-style: italic;
+  font-weight: 300;
+  margin: 0 0 20px;
+}
+
+
+/* footer */
+.footer{
+  background-color: #e8700e;
+}
+
+
+/*footer*/
+.footer-blog{
+  padding: 15px;
+}
+.footer-blog ul li ,.links , .fheading{
+  list-style: none;
+  color: white;
+  text-align: center;
+  padding: 5px;
+}
+.fheading{
+  font-size: 20px;
+}
+.boxs li{
+  display: inline-block;
+  text-align: center;
+  padding-left: 15px;
+}
+/*https://10015.io/tools/qr-code-generator*/
+/* https://www.syracuse.edu/ */
